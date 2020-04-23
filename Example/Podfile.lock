@@ -1,10 +1,24 @@
 PODS:
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LSJHClearCache (0.1.0)
+  - LSJHCategory (0.1.0):
+    - Masonry
+    - SVGKit
+    - YYImage
+  - LSJHClearCache (0.1.0):
+    - LSJHCategory
+  - Masonry (1.1.0)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -12,16 +26,26 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - CocoaLumberjack
     - FBSnapshotTestCase
+    - LSJHCategory
+    - Masonry
+    - SVGKit
+    - YYImage
 
 EXTERNAL SOURCES:
   LSJHClearCache:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LSJHClearCache: 6da91f6dff3c1bb32d5ea8e614cfb52f2b49de86
+  LSJHCategory: f17d45076fe46a93bf1055f56bb57616ac2b8971
+  LSJHClearCache: f9e671da0a40cb542cabe84d405215d8ac868912
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: df0782b8fe6c41f53268cc61c756fb884184c1f1
+PODFILE CHECKSUM: 1d6ed8771f57757421a4f2a1a1ecdd6b9f07704c
 
 COCOAPODS: 1.9.1

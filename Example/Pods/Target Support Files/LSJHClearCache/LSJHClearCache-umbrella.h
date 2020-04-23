@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LLClearCache.h"
 
 FOUNDATION_EXPORT double LSJHClearCacheVersionNumber;
 FOUNDATION_EXPORT const unsigned char LSJHClearCacheVersionString[];
