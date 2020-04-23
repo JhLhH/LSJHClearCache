@@ -8,7 +8,7 @@
 #import "LLClearCache.h"
 #include <sys/mount.h>
 #include <sys/param.h>
-#import "NSString+FilePath.h"
+#import <LSJHCategory/LLCategory.h>
 @implementation LLClearCache
 + (void)wya_defaultCachesFolderSizeBlock:(void (^)(NSString * folderSize))folderSize
 {
