@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LSJHClearCache (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LSJHClearCache (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LSJHClearCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LSJHClearCache: 6da91f6dff3c1bb32d5ea8e614cfb52f2b49de86
+
+PODFILE CHECKSUM: df0782b8fe6c41f53268cc61c756fb884184c1f1
+
+COCOAPODS: 1.9.1

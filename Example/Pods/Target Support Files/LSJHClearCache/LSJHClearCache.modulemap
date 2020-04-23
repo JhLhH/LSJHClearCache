@@ -1,0 +1,6 @@
+framework module LSJHClearCache {
+  umbrella header "LSJHClearCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
