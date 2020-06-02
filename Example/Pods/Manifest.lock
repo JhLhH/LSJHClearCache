@@ -11,7 +11,7 @@ PODS:
     - Masonry
     - SVGKit
     - YYImage
-  - LSJHClearCache (0.1.0):
+  - LSJHClearCache (0.2.0):
     - LSJHCategory
   - Masonry (1.1.0)
   - SVGKit (2.1.1):
@@ -41,7 +41,7 @@ SPEC CHECKSUMS:
   CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   LSJHCategory: 26a97ce555cc684fcf79732c4148987b9878bae4
-  LSJHClearCache: f9e671da0a40cb542cabe84d405215d8ac868912
+  LSJHClearCache: 5839585ffdde870598ef78167c14e3236a8695b3
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
