@@ -7,7 +7,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LSJHCategory (0.1.0):
+  - LSJHCategory (0.2.1):
     - Masonry
     - SVGKit
     - YYImage
@@ -40,7 +40,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LSJHCategory: f17d45076fe46a93bf1055f56bb57616ac2b8971
+  LSJHCategory: 26a97ce555cc684fcf79732c4148987b9878bae4
   LSJHClearCache: f9e671da0a40cb542cabe84d405215d8ac868912
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac

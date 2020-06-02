@@ -10,42 +10,42 @@
 #include <sys/param.h>
 #import <LSJHCategory/LLCategory.h>
 @implementation LLClearCache
-+ (void)wya_defaultCachesFolderSizeBlock:(void (^)(NSString * folderSize))folderSize
++ (void)ll_defaultCachesFolderSizeBlock:(void (^)(NSString * folderSize))folderSize
 {
-    NSString * cachPath = [NSString wya_libCachePath];
+    NSString * cachPath = [NSString ll_libCachePath];
     [self folderSizeAtPath:cachPath FolderSizeBlock:folderSize];
 }
 
-+ (void)wya_defaultCachesFolderSizeValueBlock:(void (^)(NSString * _Nonnull))folderSize
++ (void)ll_defaultCachesFolderSizeValueBlock:(void (^)(NSString * _Nonnull))folderSize
 {
-    NSString * cachPath = [NSString wya_libCachePath];
+    NSString * cachPath = [NSString ll_libCachePath];
     [self folderSizeAtPath:cachPath FolderSizeValueBlock:folderSize];
 }
 
-+ (void)wya_cacheFileSizeAtPath:(NSString *)filePath FolderSizeValueBlock:(void (^)(NSString * _Nonnull))folderSize
++ (void)ll_cacheFileSizeAtPath:(NSString *)filePath FolderSizeValueBlock:(void (^)(NSString * _Nonnull))folderSize
 {
     [self folderSizeAtPath:filePath FolderSizeValueBlock:folderSize];
 }
 
-+ (void)wya_cacheFileSizeAtPath:(NSString *)filePath
++ (void)ll_cacheFileSizeAtPath:(NSString *)filePath
                 FolderSizeBlock:(void (^)(NSString * folderSize))folderSize
 {
     [self folderSizeAtPath:filePath FolderSizeBlock:folderSize];
 }
 
-+ (void)wya_clearCachesClearStatusBlock:(void (^)(BOOL status))clearStatus
++ (void)ll_clearCachesClearStatusBlock:(void (^)(BOOL status))clearStatus
 {
-    NSString * cachPath = [NSString wya_libCachePath];
+    NSString * cachPath = [NSString ll_libCachePath];
     [self clearFileAtPath:cachPath ClearStatusBlock:clearStatus];
 }
 
-+ (void)wya_clearFileAtPath:(NSString *)filePath
++ (void)ll_clearFileAtPath:(NSString *)filePath
            ClearStatusBlock:(void (^)(BOOL status))clearStatus
 {
     [self clearFileAtPath:filePath ClearStatusBlock:clearStatus];
 }
 
-+ (void)wya_getDivceAvailableSizeBlock:(void (^)(NSString * folderSize))folderSize
++ (void)ll_getDivceAvailableSizeBlock:(void (^)(NSString * folderSize))folderSize
 {
     NSFileManager * fileManager = [NSFileManager defaultManager];
     NSDictionary * attributes =
@@ -56,7 +56,7 @@
     folderSize([self automaticUnitWith:folder]);
 }
 
-+ (void)wya_getDivceAvailableSizeValueBlock:(void (^)(NSString * folderSize))folderSize
++ (void)ll_getDivceAvailableSizeValueBlock:(void (^)(NSString * folderSize))folderSize
 {
     NSFileManager * fileManager = [NSFileManager defaultManager];
     NSDictionary * attributes =
@@ -150,7 +150,7 @@
     return 0;
 }
 
-+ (NSString *)wya_getDivceSize
++ (NSString *)ll_getDivceSize
 {
     NSFileManager * fileManager = [NSFileManager defaultManager];
     NSDictionary * attributes =
@@ -166,7 +166,7 @@
     return sizeStr;
 }
 
-+ (NSString *)wya_getDivceTotalSize
++ (NSString *)ll_getDivceTotalSize
 {
     NSFileManager * fileManager = [NSFileManager defaultManager];
     NSDictionary * attributes =
@@ -180,7 +180,7 @@
     return sizeStr;
 }
 
-+ (NSString *)wya_getDivceTotalSizeValue
++ (NSString *)ll_getDivceTotalSizeValue
 {
     NSFileManager * fileManager = [NSFileManager defaultManager];
     NSDictionary * attributes =
